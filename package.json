@@ -1,0 +1,19 @@
+{
+  "name": "deploying-nodejs-application-in-kubernetes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha ./test/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Node app for CICD testing",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  }
+}
